@@ -1,0 +1,6 @@
+algoritma luas lapangan sepak bola
+
+input lebar
+input tinggi
+luas = 2 ( Tinggi X Lebar)
+Print luas
