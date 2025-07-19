@@ -1,0 +1,5 @@
+algoritme luas lingkaran
+menghitung luas bila diketahui jari-jari nya
+input jari jari
+luas = Pi * r * r
+print luas
