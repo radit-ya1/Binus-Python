@@ -1,0 +1,35 @@
+Fahrenheit ke Celsius 
+input Fahrenheit 
+C = (°F - 32) * 5/9
+print celsius
+selesai
+
+Celsius ke Fahrenheit 
+input Celsius 
+F = (°C × 9/5) + 32
+print Fahrenheit 
+selesai
+
+Fahrenheit ke Kelvin 
+input Fahrenheit 
+K = (F − 32) × 5/9 + 273,15
+pring Kelvin
+selesai
+
+Kelvin ke Fahrenheit 
+input Kelvin
+F = (K × 9/5) - 459.67 
+print Fahrenheit 
+selesai
+
+kelvin ke Celsius 
+input Kelvin 
+C = K - 273.15 
+print C
+selesai
+
+celcius ke Kelvin 
+input Celsius 
+K = C + 273.15
+print Kelvin
+selesai
