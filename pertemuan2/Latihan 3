@@ -1,0 +1,6 @@
+jari_jari = int(input("jari_jari:"))
+tinggi = int(input("tinggi:"))
+
+volume = 3.14 * jari_jari **2 * tinggi
+
+print(volume)
