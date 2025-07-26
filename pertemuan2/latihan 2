@@ -1,0 +1,5 @@
+jari_jari = int(input("jari_jari "))
+
+volume = (4/3) * (22/7) * jari_jari ** 3
+
+print(volume)
