@@ -1,0 +1,22 @@
+umur = int(input("masukan umur:"))
+
+if ( ( umur > 71 ) and ( umur <= 100 ) ):
+    print("eldrly")
+elif ( ( umur >= 51 ) and ( umur <= 70 ) ):
+    print("pre eldrly")
+elif ( ( umur > 31  ) and ( umur < 50 ) ):
+    print("adult")
+elif ( ( umur <= 22 ) and ( umur > 30 ) ):
+    print("pre adult")
+elif ( ( umur > 18 ) and ( umur <= 21) ):
+    print("young adult")
+elif ( ( umur >= 13 ) and ( umur <= 17 ) ):
+    print("Tenager")
+elif ( ( umur > 6 ) and ( umur < 12 ) ):
+    print("child")
+elif ( ( umur <= 4 ) and ( umur > 5 ) ):
+    print("preschooler")
+elif ( ( umur <= 3) and ( umur > 2)):
+    print("todller")
+else:
+    print("baby")
