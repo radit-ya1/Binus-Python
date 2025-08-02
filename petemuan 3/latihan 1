@@ -1,0 +1,9 @@
+nilai = int(input("masukan nilai:"))
+
+nilai / 2
+
+if (nilai % 2 == 0):
+    print("genap")
+else:
+    print("ganjil")
+      
