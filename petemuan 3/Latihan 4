@@ -1,0 +1,15 @@
+SA = int(input("sisi 1 : "))
+SB = int(input("sisi 2 : "))
+SC = int(input("sisi 3 : "))
+
+if (SA + SB < SC):
+	print("ini bukan segitiga")
+
+elif (SA == SB == SC):
+	print("ini segitiga")
+
+elif (SA == SB or SA == SC or SB == SC):
+	print("ini segitiga isosceles")
+
+else:
+	print("ini segitiga scalene")
