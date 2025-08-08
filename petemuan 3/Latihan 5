@@ -1,0 +1,29 @@
+import math
+
+a = int(input("Enter nilai a: "))
+b = int(input("Enter nilai b: "))
+c = int(input("Enter nilai c: "))
+
+if a == 0:
+    print("A tidak bisa menjadi 0.")
+else:
+    discriminant = b**2 - 4 * a * c
+    print(f"rumus: {a}x² + {b}x + {c} = 0")
+    print(discriminant)
+    
+    if discriminant > 0:
+        x1 = (-b + math.sqrt(discriminant)) / (2 * a)
+        x2 = (-b + math.sqrt(discriminant)) / (2 * a)
+        print("ini punya 2 akar yang berbeda.")
+        print(f"Root x1 = {x1}")
+        print(f"Root x2 = {x2}")
+    elif discriminant == 0:
+        x = -b / 2 * a
+        print("ini punya akar ganda.")
+        print(f"Root x = {x}")
+    else:
+        real_part = -b / 2 * a
+        imaginary_part = math.sqrt(abs(discriminant)) / (2 * a)
+        print("ini punya akar imajiner.")
+        print(f"Root x1 = {real_part} + {imaginary_part}")
+        print(f"Root x2 = {real_part} - {imaginary_part}")
