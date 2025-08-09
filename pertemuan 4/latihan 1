@@ -1,0 +1,10 @@
+a = int(input("Nilai : "))
+
+temp = ""
+
+for i in range(a,0,-1):
+    for j in range(0, i, 1):
+        temp = temp + str(i)
+    temp = temp + "\n"
+    
+print(temp)
