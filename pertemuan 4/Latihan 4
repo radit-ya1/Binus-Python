@@ -1,0 +1,25 @@
+lanjut = "y"
+
+while(True):
+    if (lanjut == "y"):
+        SA = int(input("sisi 1 : "))
+        SB = int(input("sisi 2 : "))
+        SC = int(input("sisi 3 : "))
+
+        if (SA + SB < SC):
+	        print("ini bukan segitiga")
+	        lanjut = input("mau lanjut? (y/n) : ")
+
+        elif (SA == SB == SC):
+	        print("ini segitiga")
+	        lanjut = input("mau lanjut? (y/n) : ")
+
+        elif (SA == SB or SA == SC or SB == SC):
+        	print("ini segitiga isosceles")
+        	lanjut = input("mau lanjut? (y/n) : ")
+        else:
+            print("ini segitiga scalene")
+            lanjut = input("mau lanjut? (y/n) : ")
+    else:
+        print("Program was End")
+        break
