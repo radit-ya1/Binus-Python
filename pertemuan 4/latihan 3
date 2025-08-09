@@ -1,0 +1,16 @@
+lanjut = "y"
+
+while(True):
+    x = int(input("Enter max value: "))
+    if ((lanjut == "y") or (lanjut == "y")):
+        
+        if (x % 2 == 0):
+            print("genap")
+            lanjut = input("mau lanjut? (y/n) : ")
+        else:
+            print("ganjil")
+            lanjut = input("mau lanjut? (y/n) : ")
+        
+    else:
+        print("Program was End")
+        break
