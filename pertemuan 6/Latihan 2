@@ -1,0 +1,68 @@
+class student:
+    def __init__(self):
+        self.__name = None
+        self.__score = None
+        
+    def get_name(self):
+        return self.name
+        
+    def get_nilai(self):
+        return self.nilai
+        
+    def set_name(self, name):
+        self.name = name
+        
+    def set_nilai(self, score):
+        self.nilai = nilai
+        
+    def reset(self):
+        self.__name = None
+        self.__nilai = None
+        
+
+student = student()
+
+while True:
+    print("===== OOP Program =====")
+    print("1. Declare Object")
+    print("2. Display Object")
+    print("3. Change Object Value")
+    print("4. Delete Object")
+    print("5. Exit Program")
+    menu = input("masukan nomor (1/2/3/4/5): ")
+    
+    if (menu == "1"):
+        name = input("masukan nama : ")
+        nilai = input("masukan nilai: ")
+        student.set_name(name)
+        student.set_nilai(nilai)
+        print("Data tersimpan")
+        
+    elif (menu == "2"):
+        print("Name :", student.get_name())
+        print("Score :", student.get_nilai())
+        
+    elif (menu == "3"):
+        if student.get_name() is None and student.get_nilai() is None:
+            print("Tolong masukan objek.")
+        else:
+            nali = input("apa yang kamu mau ubah (name/nilai): ")
+            if (nali == "name"):
+                new_name = input("Enter Your Name: ")
+                student.set_name(new_name)
+                print("Nama telah berubah.")
+            elif (nali == "nilai"):
+                new_nilai = input("masukan nilai : ")
+                student.set_nilai(new_nilai)
+                print("Nilai telah berubah.")
+            else:
+                print("masuakn yang benar.")
+        
+    elif (menu == "4"):
+        student.reset()
+        print("Deleted.")
+        
+    elif (menu == "5"):
+        print("makasih sudah mengunakan program ku.")
+        break
+    
